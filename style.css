@@ -1042,9 +1042,10 @@ body.active { overflow: hidden; }
 
 .contact-container {
   max-width: 1200px;
+  padding: 4rem;
   margin-inline: auto;
   display: grid;
-  gap: 32px;
+  gap: 16px;
   padding-block: 40px 10px;
 }
 
@@ -1061,7 +1062,7 @@ body.active { overflow: hidden; }
 .contact-grid {
   display: grid;
   gap: 30px;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   align-items: start;
 }
 
